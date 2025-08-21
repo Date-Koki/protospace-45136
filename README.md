@@ -1,5 +1,6 @@
 ## userテーブル
 
+
 | Colum              | Type   | Options      |
 | ------------------ | ------ | ------------ |
 | email              | string | null : false, unique: true |
@@ -11,6 +12,7 @@
 
 ## prototypeテーブル
 
+
 | Colum      | Type       | Options      |
 | ---------- | ---------- | ------------ |
 | title      | string     | null : false |
@@ -19,6 +21,7 @@
 | user       | references | null : false, foreign_key: true |
 
 ## commentsテーブル
+
 
 | Colum     | Type       | Options      |
 | --------- | ---------- | ------------ |
